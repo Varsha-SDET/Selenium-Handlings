@@ -91,7 +91,7 @@ public class FileUploadDownloadTest {
         //download button visible
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[contains(text(),'Download')]")));
         driver.findElement(By.xpath("//a[contains(text(),'Download')]")).click();
-        //to download file time given is staticlly given
+        //to download file time given
         Thread.sleep(7000);
         //to get dynamic path downloaded file , its stored in physical machine
         //eg, ->C:\Users\varsh\Downloads\Varsha_Resume.jpg
